@@ -55,7 +55,7 @@ h2 {
 }
 
 .list-icons {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .list-icons .list-inline-item i:hover {
@@ -199,7 +199,7 @@ a:active {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  opacity: 0.7;
+  opacity: 0.3;
 }
 .progress-point:nth-child(1) {
   margin-left: 6px;
@@ -212,38 +212,43 @@ a:active {
 
 .point_html {
   border: 3px solid #F1642B;
-  animation: full_html 2s linear;
+  transition: all 0.3s linear;
 }
-
-/* .point_html:nth-child(1) {
-  background-color: #F1642B;
-  transform: scale(1.2, 1.2);
-  opacity: 1;
-} */
 
 .point_css {
   border: 3px solid #33A9DC;
+  transition: all 0.3s linear;
 }
 
 .point_js {
   border: 3px solid #F0DA51;
+  transition: all 0.3s linear;
 }
 
 .point_nodejs {
   border: 3px solid #83CD29;
+  transition: all 0.3s linear;
 }
 
 .point_sass {
   border: 3px solid #CB6699;
+  transition: all 0.3s linear;
 }
 
 .point_jquery {
   border: 3px solid #0768AC;
+  transition: all 0.3s linear;
 }
 
 .point_bootstrap {
   border: 3px solid #8211FA;
+  transition: all 0.3s linear;
 }
+
+.bootstrap-item {
+  margin-left: 12px;
+}
+
 @media (min-width: 992px) {
   .my-auto {
     padding-right: 17rem;

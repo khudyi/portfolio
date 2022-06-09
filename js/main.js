@@ -26,3 +26,16 @@
   });
 
 })(jQuery); // End of use strict
+
+// let point_html = document.querySelectorAll(`.point_html :nth-child(2)`).style = 'background-color: #F1642B; transform: scale(1.2, 1.2); opacity: 1;';
+
+let changeColor = () => {
+  
+}
+
+  setInterval(changeColor, 1000);
+
+// let point_html = document.querySelector(`#progress_html :nth-child(1)`);
+    // point_html.style = 'background-color: #F1642B; transform: scale(1.2, 1.2); opacity: 1;';
+    // point_html.style = 'opacity: 1';
+    // $(`.point_html:nth-child(${i})`).css('background-color', '#000');

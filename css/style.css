@@ -179,6 +179,71 @@ a:active {
   color: #BD5D38;
 }
 
+.img-size {
+  max-width: 4rem;
+}
+
+.skill-item {
+  display: flex;
+}
+
+.progress {
+  background: none;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-point {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+.progress-point:nth-child(1) {
+  margin-left: 6px;
+}
+
+.progress-point:nth-child(2), 
+.progress-point:nth-child(4) {
+  margin: 0 5px;
+}
+
+.point_html {
+  border: 3px solid #F1642B;
+  animation: full_html 2s linear;
+}
+
+/* .point_html:nth-child(1) {
+  background-color: #F1642B;
+  transform: scale(1.2, 1.2);
+  opacity: 1;
+} */
+
+.point_css {
+  border: 3px solid #33A9DC;
+}
+
+.point_js {
+  border: 3px solid #F0DA51;
+}
+
+.point_nodejs {
+  border: 3px solid #83CD29;
+}
+
+.point_sass {
+  border: 3px solid #CB6699;
+}
+
+.point_jquery {
+  border: 3px solid #0768AC;
+}
+
+.point_bootstrap {
+  border: 3px solid #8211FA;
+}
 @media (min-width: 992px) {
   .my-auto {
     padding-right: 17rem;

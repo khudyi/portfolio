@@ -161,7 +161,7 @@ function checkAndAnimateSassSkills() {
 function checkAndAnimateJquerySkills() {
   if (skillJquery.classList.contains('_active')) {
     setInterval(() => {
-      if (y < 2) {
+      if (y < 1) {
         y++;
         $(`.point_jquery:nth-child(${y})`).css('background-color', '#0e0b08 ');
         $(`.point_jquery:nth-child(${y})`).css('opacity', '1');

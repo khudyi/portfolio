@@ -98,7 +98,7 @@ function checkAndAnimateHtmlSkills() {
     setInterval(() => {
       if (i < 4) {
         i++;
-        $(`.point_html:nth-child(${i})`).css('background-color', '#F1642B');
+        $(`.point_html:nth-child(${i})`).css('background-color', '#0e0b08 ');
         $(`.point_html:nth-child(${i})`).css('opacity', '1');
         $(`.point_html:nth-child(${i})`).css('transform', 'scale(1.2, 1.2)');
       }
@@ -111,7 +111,7 @@ function checkAndAnimateCssSkills() {
     setInterval(() => {
       if (n < 4) {
         n++;
-        $(`.point_css:nth-child(${n})`).css('background-color', '#33A9DC');
+        $(`.point_css:nth-child(${n})`).css('background-color', '#0e0b08 ');
         $(`.point_css:nth-child(${n})`).css('opacity', '1');
         $(`.point_css:nth-child(${n})`).css('transform', 'scale(1.2, 1.2)');
       }
@@ -124,7 +124,7 @@ function checkAndAnimateJsSkills() {
     setInterval(() => {
       if (k < 3) {
         k++;
-        $(`.point_js:nth-child(${k})`).css('background-color', '#F0DA51');
+        $(`.point_js:nth-child(${k})`).css('background-color', '#0e0b08 ');
         $(`.point_js:nth-child(${k})`).css('opacity', '1');
         $(`.point_js:nth-child(${k})`).css('transform', 'scale(1.2, 1.2)');
       }
@@ -137,7 +137,7 @@ function checkAndAnimateNodeJsSkills() {
     setInterval(() => {
       if (m < 1) {
         m++;
-        $(`.point_nodejs:nth-child(${m})`).css('background-color', '#83CD29');
+        $(`.point_nodejs:nth-child(${m})`).css('background-color', '#0e0b08 ');
         $(`.point_nodejs:nth-child(${m})`).css('opacity', '1');
         $(`.point_nodejs:nth-child(${m})`).css('transform', 'scale(1.2, 1.2)');
       }
@@ -150,7 +150,7 @@ function checkAndAnimateSassSkills() {
     setInterval(() => {
       if (x < 4) {
         x++;
-        $(`.point_sass:nth-child(${x})`).css('background-color', '#CB6699');
+        $(`.point_sass:nth-child(${x})`).css('background-color', '#0e0b08 ');
         $(`.point_sass:nth-child(${x})`).css('opacity', '1');
         $(`.point_sass:nth-child(${x})`).css('transform', 'scale(1.2, 1.2)');
       }
@@ -163,7 +163,7 @@ function checkAndAnimateJquerySkills() {
     setInterval(() => {
       if (y < 2) {
         y++;
-        $(`.point_jquery:nth-child(${y})`).css('background-color', '#0768AC');
+        $(`.point_jquery:nth-child(${y})`).css('background-color', '#0e0b08 ');
         $(`.point_jquery:nth-child(${y})`).css('opacity', '1');
         $(`.point_jquery:nth-child(${y})`).css('transform', 'scale(1.2, 1.2)');
       }
@@ -176,7 +176,7 @@ function checkAndAnimateBootstrapSkills() {
     setInterval(() => {
       if (z < 5) {
         z++;
-        $(`.point_bootstrap:nth-child(${z})`).css('background-color', '#8211FA');
+        $(`.point_bootstrap:nth-child(${z})`).css('background-color', '#0e0b08 ');
         $(`.point_bootstrap:nth-child(${z})`).css('opacity', '1');
         $(`.point_bootstrap:nth-child(${z})`).css('transform', 'scale(1.2, 1.2)');
       }
@@ -189,7 +189,7 @@ function checkAndAnimateReactSkills() {
     setInterval(() => {
       if (w < 1) {
         w++;
-        $(`.point_react:nth-child(${w})`).css('background-color', '#5FD3F3');
+        $(`.point_react:nth-child(${w})`).css('background-color', '#0e0b08 ');
         $(`.point_react:nth-child(${w})`).css('opacity', '1');
         $(`.point_react:nth-child(${w})`).css('transform', 'scale(1.2, 1.2)');
       }

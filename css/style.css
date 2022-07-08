@@ -191,8 +191,19 @@ a:active {
   background: none;
   height: 4rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+}
+
+.progress_header p {
+  padding-top: 15px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.progress_main {
+  padding-bottom: 15px;
+  font-size: 13px;
 }
 
 .progress-point {
@@ -593,6 +604,10 @@ a:active {
 .work-two:hover,
 .work-three:hover {
   transform: scale(1.2, 1.2);
+}
+
+.color-gray {
+  color: #868e96 !important;
 }
 
 @media (min-width: 992px) {
